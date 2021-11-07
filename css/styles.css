@@ -64,7 +64,9 @@ body {
 .header-list-link:focus {
   color: var(--accent-color);
 }
-
+.header-list-link.current {
+  color: var(--accent-color);
+}
 .header-contact {
   font-weight: 500;
   font-size: 14px;
