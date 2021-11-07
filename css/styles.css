@@ -16,6 +16,7 @@
 body {
   font-family: Roboto, sans-serif;
   color: var(--second-text-color);
+  background-color: var(--fourth-text-color);
 }
 /* ---------------------list---------------------------and--------link------ */
 .list {
@@ -59,10 +60,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--first-text-color);
 }
-.header-list-link:hover {
-  color: var(--accent-color);
-}
-
+.header-list-link:hover,
 .header-list-link:focus {
   color: var(--accent-color);
 }
