@@ -199,6 +199,7 @@ body {
   color: var(--accent-color);
 }
 .footer-logo-web {
+  font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
