@@ -182,12 +182,27 @@ body {
   letter-spacing: 0.03em;
   color: var(--fourth-text-color);
 }
+.address-item-street:hover,
+.address-item-street:focus {
+  color: var(--accent-color);
+}
 .adress-item-contact {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
+}
+.adress-item-contact:hover,
+.adress-item-contact:focus {
+  color: var(--accent-color);
+}
+.footer-logo-web {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--fourth-text-color);
 }
 /* ------------------------------------portfolio main section------------------------------ */
 /* --------------------------------------------section-buttons------------------------------- */
